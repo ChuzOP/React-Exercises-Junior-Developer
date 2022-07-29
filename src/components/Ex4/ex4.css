@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+.ex4 {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: repeating-conic-gradient(
+    from 45deg,
+    #491d25 0% 25%,
+    #9bbcc3 0% 50%
+  );
+  background-size: 60px 60px;
+  background-color: #9bbcc3;
+}

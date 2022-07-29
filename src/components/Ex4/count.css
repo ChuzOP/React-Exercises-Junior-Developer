@@ -1,0 +1,31 @@
+html {
+    font-size: 62.5%;
+  }
+.count{
+    color: white;
+    width: 65rem;
+    height: 45rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #6c81a8;
+  }
+  .count:hover{
+    box-shadow: 1rem 1rem #beb6b6;
+  }
+  .number{
+    font-size: 8rem;
+  }
+  .butoneta{
+    padding: 0.9rem ;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    border: black  solid 0.3rem;
+    font-size: 3rem;
+  }
+  .butoneta:hover{
+    background-color: #51668b;
+    color: white;
+    box-shadow: .1rem .1rem .1rem .1rem;
+  }

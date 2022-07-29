@@ -1,0 +1,58 @@
+.ex6 {
+  color: white;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: radial-gradient(
+    ellipse farthest-corner at 60px 60px,
+    #35059b,
+    #35059b 50%,
+    #7c459a 50%
+  );
+  background-size: 60px 60px;
+  background-color: #7c459a;
+}
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40rem;
+  height: 35rem;
+  border: .2rem solid black;
+  border-radius: 2rem;
+}
+.formulario {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.inputs {
+  margin: 1rem;
+  width: 20rem;
+  height: 3rem;
+  border: 0.2rem black solid;
+  border-radius: 0.9rem;
+}
+label {
+  font-size: 2rem;
+}
+.ea {
+  padding: 0.9rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  border: black solid 0.3rem;
+}
+::placeholder {
+  text-align: center;
+}
+h2 {
+  padding: 1rem;
+}
+.title-item{
+  font-size: 4rem;
+}

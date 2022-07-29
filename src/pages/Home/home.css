@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+h2 {
+  padding: 0;
+}
+.home-container {
+  display: grid;
+  place-content: center center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #274589 25%, transparent 25%) -51px 0,
+    linear-gradient(225deg, #274589 25%, transparent 25%) -51px 0,
+    linear-gradient(315deg, #274589 25%, transparent 25%),
+    linear-gradient(45deg, #274589 25%, transparent 25%);
+  background-size: 102px 102px;
+  background-color: #6b4366;
+}
+.home {
+  display: grid;
+  grid-template-rows: repeat(auto-fit);
+  place-items: center center;
+  gap: 1rem;
+  color: black;
+  background: #bca9e2;
+  background: -webkit-linear-gradient(34deg, #bca9e2 0%, #9bbda1 100%);
+  background: linear-gradient(34deg, #bca9e2 0%, #9bbda1 100%);
+  border-radius: 2rem;
+  height: 40rem;
+  width: 80rem;
+}
+.home h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+.home h2 {
+  font-size: 3rem;
+}
+.home h3 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.home p {
+  font-size: 2rem;
+}

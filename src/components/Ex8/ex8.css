@@ -1,0 +1,49 @@
+html {
+  font-size: 62.5%;
+}
+.spinner {
+  width: 11.2px;
+  height: 11.2px;
+  animation: spinner-z355kx 1s infinite linear;
+  border-radius: 11.2px;
+  box-shadow: 28px 0px 0 0 #0a0b11, 17.4px 21.8px 0 0 #000000,
+    -6.2px 27.2px 0 0 #000000, -25.2px 12px 0 0 #000000,
+    -25.2px -12px 0 0 #000000, -6.2px -27.2px 0 0 #000000,
+    17.4px -21.8px 0 0 #000000;
+}
+
+@keyframes spinner-z355kx {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ex8 {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #505fe1 0,
+    #505fe1 7px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 60px 60px;
+  background-color: #24616c;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center center;
+}
+.lista {
+  padding: 0.5%;
+  display: grid;
+  grid-template-rows: repeat(auto-fit);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  place-content: center center;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(174, 174, 250);
+}
